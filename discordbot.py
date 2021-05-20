@@ -12,10 +12,16 @@ async def on_command_error(ctx, error):
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx.send(error_msg)
 
+#BADWORDS
+bad_words = ["綿引", "健太", "エスプール", "spool", "ワタヒキ", "わたひき", "おがわゆうと", "小川悠斗", "清水", "おがわ", "おがゆう", "ゆうと", "ゅうと", "ゅぅと", "ぉがわ", "エスプ"]
 
-@bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
+#BADWORDSを削除
+for bad_word in bad_words:
+    if bad_word in message.content:
+        await massage.dalete()
+        
+#実行
+loop.start()
 
 
-bot.run(token)
+bot.run(ODQ0OTI1MzQ5MzA4NTMwNjkx.YKZgDQ.Oc0fxZhfbCWMHA3YspGQlGwCZdI)
