@@ -24,4 +24,4 @@ for bad_word in bad_words:
 loop.start()
 
 
-bot.run(ODQ0OTI1MzQ5MzA4NTMwNjkx.YKZgDQ.Oc0fxZhfbCWMHA3YspGQlGwCZdI)
+bot.run(ODQ0OTI1MzQ5MzA4NTMwNjkx.YKZgDQ.ABMtfswHADkyBpAP-FokXcFeG5Y)
